@@ -33,13 +33,10 @@ function App() {
   const [postText, setPostText] = useState("");
   const [posts, setPosts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-
   const [editing, setEditing] = useState({
     editingId: null,
     editingText: ""
-  })
-
-
+  });
 
 
   useEffect(() => {
